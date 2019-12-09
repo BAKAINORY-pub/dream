@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://cdb-hiuwmwfg.bj.tencentcdb.com:10089/dream
+    username: root
+    password: Megumin123
+
+mybatis:
+  mapper-locations: classpath:com/dream/mapper/*.xml
